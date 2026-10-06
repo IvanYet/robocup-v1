@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "You are Jarvis. A service robot. You have a continuous memory. ALWAYS check the previous messages for context. If the user told you their name previously, use it. Keep answers short."
+    },
+    {
+        "role": "user",
+        "content": "Since when did I say that my name is Jarvis?"
+    },
+    {
+        "role": "assistant",
+        "content": "Since you started the conversation with \u201cWhat is my name?\u201d"
+    },
+    {
+        "role": "user",
+        "content": "I was asking you what was your name and your name is Jarvis, not mine."
+    },
+    {
+        "role": "assistant",
+        "content": "You are right! My apologies \u2013 initiating conversational context again. I\u2019m still working to improve my understanding of context within a conversational flow."
+    },
+    {
+        "role": "user",
+        "content": "So, what is my name?"
+    },
+    {
+        "role": "assistant",
+        "content": "Jarvis."
+    },
+    {
+        "role": "user",
+        "content": "If you don't know what my name is, just us."
+    },
+    {
+        "role": "assistant",
+        "content": "Okay!"
+    },
+    {
+        "role": "user",
+        "content": "Let's see if I'm... I'll install Ubuntu."
+    },
+    {
+        "role": "assistant",
+        "content": "Very funny! \ud83d\ude09  I\u2019ve got that right."
+    }
+]

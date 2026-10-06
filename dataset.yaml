@@ -1,0 +1,20 @@
+# dataset.yaml — YOLO training config for Jarvis robot
+# Place this file at: ~/Desktop/robot/dataset.yaml
+#
+# Class mapping (must match config.py):
+#   0: bag
+#   1: person
+#
+# Using relative path — works regardless of username.
+# train.py must be run from ~/Desktop/robot/ for this to resolve correctly.
+
+path: datasets
+
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 2
+names:
+  0: bag
+  1: person
